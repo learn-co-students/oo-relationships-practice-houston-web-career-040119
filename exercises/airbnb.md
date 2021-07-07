@@ -8,7 +8,7 @@ You are building an app for an Airbnb competitor
   - a listing (i.e. a house or apartment) has many trips
     - a listing has a city attribute which is a string of a city name, e.g. 'Seattle'
   - a guest has many trips
-  - a trip belongs to a listing and a guest
+  - a trip belongs to a listing and a guest // JOIN MODEL
 
 Write out the relationships using has_many, belongs_to and has_many_through.
 Create the necessary methods to connect these classes.
